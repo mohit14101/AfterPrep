@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+}
+.container{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 2rem;
+}
+.desc{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.topic{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-height: 400px;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    scale: 0;
+    background-color:rgb(210, 236, 255) ;
+}
+.rescue{
+    scale: 0;
+    position: absolute;
+    top: 205px;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.result{
+    display: flex;
+    position: absolute;
+    font-size: 0.9rem;
+    top: 205px;
+    left: 200px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    scale: 0;
+    align-items: center;
+}
+.rescue:hover{
+    background-color: rgb(210, 236, 255);
+    cursor:pointer;
+}
+.result:hover{
+    background-color: rgb(210, 236, 255);
+}
+.active{
+    scale: 1;
+}
+
+
